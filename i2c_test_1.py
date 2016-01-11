@@ -5,5 +5,5 @@ lcd = lcddriver.lcd()
 
 lcd.lcd_display_string("Hello world", 1)
 lcd.lcd_display_string("My name is", 2)
-lcd.lcd_display_string("picorder", 3)
-lcd.lcd_display_string("I am a Raspberry Pi", 4)
+#from
+#https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=34261&p=378524
