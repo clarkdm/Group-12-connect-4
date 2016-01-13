@@ -35,7 +35,8 @@ def main():
                 print('Computer Turn')
                 print('The computer is thinking...')
                 move = getComputerMove(mainBoard, computer)
-                makeMove(mainBoard, computer, move) #Change to method to put computers piece in board
+                makeMove(mainBoard, computer, move)
+                #Add method to put computers piece in board
                 if isWinner(mainBoard, computer):
                     winner = 'computer'
                     break
