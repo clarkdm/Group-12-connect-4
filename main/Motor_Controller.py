@@ -35,6 +35,26 @@ class Motor_Controller:
 		self.M5.set_base(4800)
 
 
+	def go_to_column(self, num):
+		if num == 0:
+			self.go_to_column_0()
+		elif num == 1:
+			self.go_to_column_1
+		elif num == 2:
+			self.go_to_column_2
+		elif num == 3:
+			self.go_to_column_3
+		elif num == 4:
+			self.go_to_column_4
+		elif num == 5:
+			self.go_to_column_5
+		else:
+			self.go_to_column_6
+	
+
+
+
+
 
 	def off(self,GPIO):
 		self.M1.off(GPIO)
